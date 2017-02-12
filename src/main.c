@@ -3,13 +3,13 @@
 /* 8byte / 32bit bit flags */
 static const unsigned int BIT_FLAG_0 	= 0x00000000;
 static const unsigned int BIT_FLAG_1 	= 0x00000001;
-static const unsigned int BIT_FLAG_2 	= 0x00000002;
-static const unsigned int BIT_FLAG_4 	= 0x00000004;
-static const unsigned int BIT_FLAG_8 	= 0x00000008;
-static const unsigned int BIT_FLAG_16	= 0x00000010;
-static const unsigned int BIT_FLAG_32	= 0x00000020;
-static const unsigned int BIT_FLAG_64	= 0x00000040;
-static const unsigned int BIT_FLAG_128  = 0x00000080;
+static const unsigned int BIT_FLAG_2 	= 0x00000010;
+static const unsigned int BIT_FLAG_4 	= 0x00000100;
+static const unsigned int BIT_FLAG_8 	= 0x00001000;
+static const unsigned int BIT_FLAG_16	= 0x00010000;
+static const unsigned int BIT_FLAG_32	= 0x00100000;
+static const unsigned int BIT_FLAG_64	= 0x01000000;
+static const unsigned int BIT_FLAG_128  = 0x10000000;
 
 /* definition */
 void bit_extractor( unsigned int value )
